@@ -1,22 +1,73 @@
-MO SMADI PORTFOLIO — QUICK START
+MOHAMMAD SMADI — COMP229 PORTFOLIO
 
-1. Install Node.js from https://nodejs.org (LTS version).
-2. Open this project folder.
-3. Click the folder address bar in File Explorer, type cmd, and press Enter.
-4. In the black window, type: npm install
-5. When it finishes, type: npm run dev
-6. Open the local address shown (usually http://localhost:5173).
+PROJECT OVERVIEW
 
-EDITING WITH NOTEPAD
-- Open src/App.jsx in Notepad to change the page text.
-- Open src/styles.css in Notepad to change colors and appearance.
-- Save the file, then refresh the browser.
+This project is a personal portfolio website created for COMP229 Web Application Development.
 
-IMPORTANT BEFORE SUBMISSION
-- Replace the sample project descriptions with real projects you completed.
-- Confirm education dates and qualifications.
-- Add your real contact details.
-- The assignment requests a personal photo; this project intentionally uses a non-personal monogram graphic instead.
-- The included resume is ready as a portfolio PDF, but add your preferred email/phone before final submission.
-- This contact form captures data in the browser only; it does not email messages.
-- Create your own GitHub repository and deploy the site to Vercel or Netlify.
+The portfolio was developed using React and includes six main pages:
+
+- Home
+- About Me
+- Projects
+- Education
+- Services
+- Contact Me
+
+FEATURES
+
+- Responsive React portfolio website
+- Custom MS portfolio logo
+- Navigation between all six pages
+- Personal introduction and mission statement
+- About Me section
+- Downloadable PDF resume
+- Project showcase
+- Education information
+- Skills and services section
+- Contact information panel
+- Interactive contact form
+- Responsive CSS design
+- Internal code documentation
+- Reusable React components
+
+TECHNOLOGIES USED
+
+- React
+- JavaScript
+- HTML
+- CSS
+- React Router
+- Vite
+- Git
+- GitHub
+
+CONTACT FORM
+
+The Contact Me page includes an interactive form that captures the user's first name, last name, contact number, email address, and message.
+
+When the form is submitted, the information is captured in browser session storage and the user is redirected to the Home page.
+
+PROJECT STRUCTURE
+
+src/App.jsx
+Contains the main portfolio components, pages, navigation, and contact form logic.
+
+src/main.jsx
+Initializes the React application.
+
+src/styles.css
+Contains the styling and responsive layout for the portfolio.
+
+public/Mohammad_Smadi_Resume.pdf
+PDF resume linked from the About Me page.
+
+AUTHOR
+
+Mohammad Smadi
+Software Engineering Technician
+Centennial College
+
+COURSE
+
+COMP229 — Web Application Development
+Assignment 1 — React Portfolio Site
