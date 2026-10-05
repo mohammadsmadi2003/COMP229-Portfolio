@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+// COMP229 Portfolio - Main application component
+// Created by Mohammad Smadi
+// Contains the six portfolio pages and shared navigation.import React, { useState } from "react";
 import { Link, NavLink, Route, Routes, useNavigate } from "react-router-dom";
 
 // Shared page layout and navigation used across the portfolio.
